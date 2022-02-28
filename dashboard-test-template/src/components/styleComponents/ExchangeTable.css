@@ -1,0 +1,76 @@
+.tContainer{
+    width: 90%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.hUnderline{
+    width: 35px;
+    height: 3px;
+    background-color: #87CEEB;
+}
+
+.tContainer h2{
+    font-size: 14px;
+    /* font-family: 'Rubik'; */
+    font-weight: 500;
+    color: #232c56;
+}
+
+.tContainer table{
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.tContainer thead{
+    font-size: 13px;
+    color: rgba(81, 81, 81, 0.78);
+    font-weight: 500;
+}
+
+.tContainer td{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3c5e88;
+}
+
+.tContainer tbody tr:nth-child(odd){
+    background-color: #f8fafe;
+    border: none;
+}
+.tContainer tbody tr {
+    border-top:1px solid #d5ddec;
+    border-bottom:1px dotted #d5ddec;
+    
+    background-color: #ffffff;
+}
+
+
+.tContainer tr{
+    border-radius: 0px;
+    height: 50px;
+    
+}
+
+.tContainer h3{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(69deg, #3dbcf1 0%, #3386da 91%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.tTitle{
+        position: relative;
+}
+
+.tTable{
+    position: relative;
+}
+
+.tFooter{
+    position: relative;
+}

@@ -1,0 +1,42 @@
+.iContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.itemContainer{
+    width: 30%;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.iconContainer{
+    margin-top: 10px;
+}
+
+.itemContainer p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+}
+
+/* .iContainer{
+    width: 40%;
+} */
+
+@media screen and (min-width: 1024px) {
+
+    .iContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+        justify-content: space-between;
+    }
+    
+    
+  }

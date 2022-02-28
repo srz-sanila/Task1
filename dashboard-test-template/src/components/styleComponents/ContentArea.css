@@ -1,0 +1,98 @@
+.ContentContainer {
+    height: 100%;
+    /* width: 100%; */
+    margin-left: 30px;
+}
+.exchaange{
+    width: 45%;
+}
+
+.event{
+    width: 45%;
+}
+
+.activity{
+    width: 45%;
+}
+
+.sale{
+    width: 45%;
+}
+.ContentSection
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 125px;
+    width: 95%
+}
+.rowElement {
+    position: relative;
+    display: flex;
+}
+.colm1 {
+    position: relative;
+    width: 63%;
+}
+.colm2 {
+    position: relative;
+    width: 40%;
+}
+.ContentSection1
+{
+    position: relative;
+    height: 600px;
+}
+
+.ContentSection1 .colm
+{
+    position: relative;
+}
+.ContentSection2
+{
+    position: relative;
+    height: 600px;
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .rowElement {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    
+    
+
+.colm1 {
+    position: relative;
+    width: 100%;
+    margin-left: 39px;
+    margin-right: 40px;
+}
+
+.ContentSection1 {
+    position: relative;
+    height: auto;
+}
+
+.colm2 {
+    position: relative;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.ContentSection2 {
+    position: relative;
+    height: auto;
+}
+    
+    
+  }

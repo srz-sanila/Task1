@@ -1,0 +1,47 @@
+.Hcontainer{
+    background-image: linear-gradient(230deg, #001b6a 0%, #00137e 100%);
+    height: 185px;
+    z-index: 1;
+    border-radius: 0 0 0 50px;
+    position: absolute;
+    width: 100%;
+}
+ .HPattern {
+    background-image: url('D:/Fingent/UI developer/dashboard-test-template/src/components/styleComponents/bg-pattern.png');
+    z-index: 2;
+    height: 150px;
+}
+.abc{
+    z-index: 3;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.heading h1{
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.Underline{
+    width: 40px;
+    height: 4px;
+    background-color: #0ea1e6;
+    margin-top: 15px;
+}
+
+.addbutton{
+    background-image: linear-gradient(69deg, #3dbcf1 0%, #3386da 91%);
+    box-shadow: 0 3px 10px 2px rgba(0,52,123,0.22);
+    border-radius: 5px;
+    height: 40px;
+}
+
+.addbutton:hover{
+    background-image: linear-gradient(69deg, #59ce69 0%, #1e8615 91%);
+}
+
+.topNavContent
+{
+    position: relative;
+}

@@ -1,0 +1,82 @@
+.mainContentDiv{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 110px;
+    gap: 15px;
+    z-index: 10;
+}
+
+
+
+.sperator {
+    position: relative;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+    .mainContentDiv{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top: 110px;
+        gap: 8px;
+        z-index: 10;
+       
+    }
+    
+    
+  }
+
+
+    
+@media  screen and (max-width: 768px) {
+    .mainContentDiv {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top: 110px;
+        gap: 8px;
+        z-index: 10;
+        width: 90%;
+       
+    }
+    
+  }
+
+
+  /* @media (max-width: 768px) {
+    .mainContentDiv {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top: 110px;
+        gap: 8px;
+        z-index: 10;
+        width: 97%;
+        
+    }
+    
+    
+  } */
+
+
+  @media (max-width: 425px) {
+    .mainContentDiv {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 110px;
+        gap: 8px;
+        z-index: 10;
+        width: 97%;
+        
+    }
+    .sperator {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+
+ 

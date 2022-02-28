@@ -1,0 +1,64 @@
+.sContainer{
+    width: 90%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sContainer h2{
+    font-size: 14px;
+    /* font-family: 'Rubik'; */
+    font-weight: 500;
+    color: #232c56;
+}
+
+.sContainer.head{
+    margin: 15px;
+}
+
+.sContainer table{
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.sContainer thead{
+    font-size: 13px;
+    color: rgba(81, 81, 81, 0.78);
+    font-weight: 500;
+}
+
+.sContainer td{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3c5e88;
+}
+
+.sContainer tbody tr:nth-child(odd){
+    background-color: #f8fafe;
+    border: none;
+}
+.sContainer tbody tr {
+    border-top:1px solid #d5ddec;
+    border-bottom:1px dotted #d5ddec;
+    
+    background-color: #ffffff;
+}
+
+
+.sContainer tr{
+    border-radius: 0px;
+    height: 50px;
+    
+}
+
+.value{
+    color: green;
+}
+
+.exchange-no{
+    color: red;
+}
+
+.sTable{
+    position: relative;
+}

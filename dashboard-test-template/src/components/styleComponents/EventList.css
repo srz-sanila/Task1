@@ -1,0 +1,74 @@
+.eContainer{
+   
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+.hUnderline{
+    margin-top: 12px;
+    width: 35px;
+    height: 3px;
+    background-color: #87CEEB;
+}
+
+.eContainer h2{
+    font-size: 14px;
+    /* font-family: 'Rubik'; */
+    font-weight: 500;
+    color: #232c56;
+}
+
+.eContainer.head{
+    margin: 15px;
+}
+
+.eList{
+    row-gap: 5px;
+}
+
+.iEventContainer{
+    width: 100%;
+    border: 1px solid rgb(185, 209, 216);
+    border-radius: 10px;
+    background-color: #ffffff;
+    
+}
+
+.E_date{
+    text-align: center;
+    background-color: #e6e9ee;
+    width: 15%;
+}
+
+.bullet::before {
+    content: "\2022";
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(36, 132, 221)
+}
+
+.date{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eContainer ul {
+    list-style-type: circle;
+    position: relative;
+    left: -35px;
+}
+
+.eContainer li{
+    font-size: 14px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.eContainer p{
+    color: rgba(81, 81, 81, 0.78);
+}
+
